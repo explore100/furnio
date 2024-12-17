@@ -1,0 +1,511 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>website</title>
+</head>
+
+<body>
+    <header class="flex flex-wrap items-center justify-between py-6 px-6 lg:py-[1.875rem] lg:px-[3.375rem] bg-white">
+
+        <img src="image/Frame 168.jpg" alt="Logo" class="h-[40px] lg:h-[50px]">
+
+        <ul class="hidden lg:flex space-x-[3.344rem]">
+            <li><a href="figma.html" class="cursor-pointer hover:text-gray-600">Home</a></li>
+            <li><a href="shop.html" class="cursor-pointer hover:text-gray-600">Shop</a></li>
+            <li><a href="single.html" class="cursor-pointer hover:text-gray-600">About</a></li>
+            <li><a href="contact.html" class="cursor-pointer hover:text-gray-600">Contact</a></li>
+        </ul>
+
+        <div class="flex items-center space-x-6">
+            <div>
+                <img src="./icos/mdi_account-alert-outline.png" alt="Account" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/akar-icons_search.png" alt="Search" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/akar-icons_heart.png" alt="Favorites" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/ant-design_shopping-cart-outlined.png" alt="Cart" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+        </div>
+
+        <button class="lg:hidden block text-gray-600" id="menu-toggle">
+            <i class="bx bx-menu text-xl"></i>
+        </button>
+
+        <ul class="hidden flex-col space-y-4 mt-4 w-full lg:hidden bg-white py-4 px-6 border-t border-gray-200"
+            id="mobile-menu">
+            <li><a href="figma.html" class="block text-gray-800 hover:text-gray-600">Home</a></li>
+            <li><a href="shop.html" class="block text-gray-800 hover:text-gray-600">Shop</a></li>
+            <li><a href="single.html" class="block text-gray-800 hover:text-gray-600">About</a></li>
+            <li><a href="contact.html" class="block text-gray-800 hover:text-gray-600">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="flex justify-end bg-hero-pattern bg-cover flex-wrap">
+
+        <div
+            class="px-11 sm:py-16 bg-primary-100 max-w-[100%] mt-[9.56rem] mb-[6.5rem] mr-[3.625rem] rounded-[0.625rem]">
+            <p class="text-[1rem] text-content-color font-semibold ">New Arrival</p>
+            <h1 class="text-[3.25rem] font-bold text-primary-900">Discover Our <br> New Collection</h1>
+            <p class="text-[1.125rem] mt-4 font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis.</p>
+            <button class="mt-11 py-6 px-[4.5rem] bg-primary-900 text-white font-bold">BUY Now</button>
+        </div>
+    </section>
+    <div class="my-[56.47px] ">
+        <h2 class="font-Poppins font-[700] md:text-[32px] text-[24px] md:leading-[48px] text-[#333333] text-center">
+            Browse The Range</h2>
+        <p class="text-center font-Poppins font-[400] md:text-[20px] text-[12px] leading-[30px]  text-[#666666]">Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="md:flex md:justify-center gap-[20px] md:mx-[128px] mx-[50px] space-y-[80px]">
+            <div class=" h-[381px] w-[350px] md:mt-[80px]">
+                <img src="./image/dining.png" alt="Dining" class="h-[381px] w-[300px] ">
+                <p class="text-center font-Poppins text-[24px] leading-[36px] font-[600] text-[#333333] mt-[20px]">
+                    Dining</p>
+            </div>
+            <div class=" h-[381px] w-[350px]">
+                <img src="./image/living.png" alt="" class="h-[381px] w-[300px]">
+                <p class=" text-center font-Poppins text-[24px] leading-[36px] font-[600] text-[#333333] mt-[20px]">
+                    Living</p>
+            </div>
+            <div class=" h-[381px] w-[350px]">
+                <img src="./image/bedroom.png" alt="" class="h-[381px] w-[300px]">
+                <p class="text-center font-Poppins text-[24px] leading-[36px] font-[600] text-[#333333] mt-[20px]">
+                    Bedroom</p>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="mt-14 flex justify-center items-center">
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mt-[3rem]">Our Products</h1>
+    </nav>
+    <div class="flex flex-wrap justify-center gap-6 mt-12 px-4 lg:px-16">
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/1.png" alt="Syltherine Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Syltherine</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp2.500.000 <s class="text-gray-500">3.500.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/2.png" alt="Leviosa Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Leviosa</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">Rp2.500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/3.png" alt="Lolito Sofa" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Lolito</b>
+                <p class="text-sm lg:text-base mt-2">Luxury big sofa</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp7.000.000 <s class="text-gray-500">14.000.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/4.png" alt="Respiro Table" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2 font-semibold">Respiro</b>
+                <p class="text-sm lg:text-base mt-2">Outdoor bar table and stool</p>
+                <p class="text-sm lg:text-base mt-2">Rp500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-[#2EC1AC] h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                New
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-6 mt-12 px-4 lg:px-16">
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/5.png" alt="Syltherine Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Grifo</b>
+                <p class="text-sm lg:text-base mt-2">Night lamp</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp1.500.000
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+  
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/6.png" alt="Leviosa Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Muga</b>
+                <p class="text-sm lg:text-base mt-2">Small mug</p>
+                <p class="text-sm lg:text-base mt-2">Rp150.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/7.png" alt="Lolito Sofa" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Pingky</b>
+                <p class="text-sm lg:text-base mt-2">cute bed set</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp7.000.000 <s class="text-gray-500">14.000.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/8.png" alt="Respiro Table" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2 font-semibold">Potty</b>
+                <p class="text-sm lg:text-base mt-2">Minimalist flower pot</p>
+                <p class="text-sm lg:text-base mt-2">Rp500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-[#2EC1AC] h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                New
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center mt-[32px]">
+        <button
+            class="border-[1px] border-[#B88E2F] px-[78px] py-[12px] text-[#B88E2F] font-[600] text-[16px] leading-[24px]">Show
+            More</button>
+    </div>
+
+    <div class="bg-[#FCF8F3] mt-[2rem] w-full min-h-1 md:h-full relative overflow-hidden">
+        <div class="container  mx-auto px-4 py-8 md:py-14">
+            <div class="relative flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+                <div class="relative w-full md:w-[404px] group">
+                    <img src="image/Rectangle 24.png" alt="Bedroom Interior"
+                        class="w-full h-auto md:h-[30.375rem] object-cover rounded-lg">
+                    <p class="absolute bottom-24 left-7 text-white font-semibold text-lg md:text-xl z-10">
+                        Explore more
+                    </p>
+                    <div class="absolute bottom-5 left-6 bg-white bg-opacity-75 p-4 md:p-6 rounded-lg w-[217px]">
+                        <div class="flex items-center gap-2 text-[#616161] text-sm md:text-base font-medium">
+                            <span>01</span>
+                            <span>-</span>
+                            <span>Bed Room</span>
+                        </div>
+                        <h3 class="text-[#3A3A3A] font-semibold text-xl md:text-[28px] mt-1">
+                            Inner Peace
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="relative w-full md:w-[23.25rem] hidden md:block">
+                    <img src="image/Rectangle 25.png" alt="Interior Design"
+                        class="w-full h-auto md:h-[30.37rem] object-cover rounded-lg">
+                </div>
+
+                <button
+                    class="absolute right-4 top-1/2 transform -translate-y-1/2 h-12 w-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#B88E2F] hover:text-white transition-colors duration-300 z-20">
+                    <i class='bx bx-chevron-right text-[#B88E2F] text-2xl'></i>
+                </button>
+
+                <div class="relative w-full md:w-[23.25rem] hidden lg:block">
+                    <img src="image/Rectangle 26.png" alt="Interior Design"
+                        class="w-full h-auto md:h-[30.37rem] object-cover rounded-lg">
+                </div>
+
+                <div class="flex md:hidden gap-2 mt-4 justify-center">
+                    <button class="h-2 w-2 rounded-full bg-[#B88E2F]"></button>
+                    <button class="h-2 w-2 rounded-full bg-gray-300"></button>
+                    <button class="h-2 w-2 rounded-full bg-gray-300"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-[67px]">
+        <div class="w-[90%] max-w-[356px] mx-auto h-[86px] relative text-center">
+            <p class="font-[600] text-[1.25rem] text-content-grey-800">Share your setup with</p>
+            <h1 class="font-[700] text-[2.5rem]">#FuniroFurniture</h1>
+        </div>
+    </div>
+
+
+    <footer class="mt-[5rem] lg:mt-[60.125rem] border-t-2 border-gray-300">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-4 md:px-10 lg:px-[100px] bg-white mt-12">
+            <div class="text-center lg:text-left">
+                <a href="#" class="text-2xl font-semibold">Furniro.</a>
+                <p class="font-medium text-gray-500 mt-4">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Link</a>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="font-medium">Home</a></li>
+                    <li><a href="#" class="font-medium">Shop</a></li>
+                    <li><a href="#" class="font-medium">About</a></li>
+                    <li><a href="#" class="font-medium">Contact</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Help</a>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="font-medium">Payment Option</a></li>
+                    <li><a href="#" class="font-medium">Returns</a></li>
+                    <li><a href="#" class="font-medium">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Newsletter</a>
+                <div class="mt-4 flex flex-col items-center lg:flex-row lg:items-center gap-2">
+                    <input type="text" placeholder="Enter Your Email Address"
+                        class="border-b-2 border-black w-full lg:w-auto p-2">
+                    <button class="border-b-2 border-black px-4 py-2">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-10 border-t-2 border-gray-300 pt-4 text-center">
+            <p class="font-normal text-gray-500">2023 Furniro. All rights reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                backgroundImage: {
+                    'hero-pattern': "url('/image/main.png')",
+                },
+                colors: {
+                    primary: {
+                        50: '#FCF8F3',
+                        100: '#FFF3E3',
+                        900: '#B88E2F',
+                    },
+
+                    success: "#2EC1AC",
+                    danger: "#E97171",
+                    info: "#816DFA",
+                    content: {
+                        grey: {
+                            300: "#F4F5F7",
+                            400: "#B0B0B0",
+                            500: "#898989",
+                            800: "#616161",
+                            850: "#3A3A3A",
+                            900: "#333333"
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+
+
+</html>

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="flex flex-wrap items-center justify-between py-6 px-6 lg:py-[1.875rem] lg:px-[3.375rem] bg-white">
+
+        <img src="image/Frame 168.jpg" alt="Logo" class="h-[40px] lg:h-[50px]">
+
+        <ul class="hidden lg:flex space-x-[3.344rem]">
+            <li><a href="figma.html" class="cursor-pointer hover:text-gray-600">Home</a></li>
+            <li><a href="shop.html" class="cursor-pointer hover:text-gray-600">Shop</a></li>
+            <li><a href="single.html" class="cursor-pointer hover:text-gray-600">About</a></li>
+            <li><a href="contact.html" class="cursor-pointer hover:text-gray-600">Contact</a></li>
+        </ul>
+
+        <div class="flex items-center space-x-6">
+            <div>
+                <img src="./icos/mdi_account-alert-outline.png" alt="Account" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/akar-icons_search.png" alt="Search" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/akar-icons_heart.png" alt="Favorites" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/ant-design_shopping-cart-outlined.png" alt="Cart" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+        </div>
+
+        <button class="lg:hidden block text-gray-600" id="menu-toggle">
+            <i class="bx bx-menu text-xl"></i>
+        </button>
+
+        <ul class="hidden flex-col space-y-4 mt-4 w-full lg:hidden bg-white py-4 px-6 border-t border-gray-200"
+            id="mobile-menu">
+            <li><a href="figma.html" class="block text-gray-800 hover:text-gray-600">Home</a></li>
+            <li><a href="shop.html" class="block text-gray-800 hover:text-gray-600">Shop</a></li>
+            <li><a href="single.html" class="block text-gray-800 hover:text-gray-600">About</a></li>
+            <li><a href="contact.html" class="block text-gray-800 hover:text-gray-600">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="h-[19.75rem] bg-cover bg-center bg-[url('/image/main2.png')]">
+        <h1
+            class="text-[#000000] font-bold text-3xl md:text-4xl lg:text-5xl flex justify-center items-center pt-[7.5rem] px-4 text-center">
+            Shop
+        </h1>
+        <p class="text-sm md:text-base mt-2 text-[#000000] flex justify-center items-center space-x-1">
+            <span>home</span>
+            <i class='bx bx-chevron-right w-5 h-5'></i>
+            <span>shop</span>
+        </p>
+    </section>
+
+    <div class=" bg-[#F9F1E7]  md:h-[100px] h-[50px] flex md:justify-between gap-4 items-center md:px-[99px] ">
+        <div class=" flex items-center md:gap-[24px] gap-[10px]">
+            <div class="flex items-center mr-[5px]">
+                <img src="./image/Group 57.png" class="md:h-[28px] h-[18px] md:w-[28px] w-[18px]" alt="">
+                <p class="text-[14px]">Filter</p>
+            </div>
+            <img src="./icos/grid.png" class="md:h-[28px] h-[18px] md:w-[28px] w-[18px] ml-[10px]" alt="">
+            <img src="./icos/2.png" alt="" class="md:h-[28px] h-[18px] md:w-[28px] w-[18px] ml-[10px] mr-[10px]">
+            <p
+                class="font-Poppins font-[400] text-[14px] md:text-[16px] leading-3 md:leading-[24px] md:border-l-[2px] border-[#9F9F9F] md:pl-[50px] w-[200px] hidden  md:block">
+                Showing 1-16 of 32 results</p>
+        </div>
+        <div class="flex md:gap-[29px] md:ml-[50px]">
+            <div class="flex justify-center items-center gap-[17px] ml-[20px]">
+                <p class="font-Poppins font-[400] md:text-[20px] text-[14px] leading-[30px]">Show</p>
+                <p
+                    class="font-[400] md:text-[20px] text-[14px] leading-[30px] px-[18px] py-[13px] bg-[#FFFFFF] text-[#9F9F9F]">
+                    16</p>
+            </div>
+            <div class="flex justify-center items-center gap-[17px]">
+                <p class=" pl-[10px] font-Poppins font-[400] md:text-[20px] text-[12px] md:leading-[30px] text-center">
+                    Short by</p>
+                <input type="search" placeholder="Default"
+                    class="font-[400] md:text-[20px] text-[14px] leading-[30px] w-[150px] px-[18px] py-[13px] bg-[#FFFFFF] text-[#9F9F9F]">
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 mt-12 px-4 lg:px-16">
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/1.png" alt="Syltherine Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Syltherine</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp2.500.000 <s class="text-gray-500">3.500.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/2.png" alt="Leviosa Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Leviosa</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">Rp2.500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/3.png" alt="Lolito Sofa" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Lolito</b>
+                <p class="text-sm lg:text-base mt-2">Luxury big sofa</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp7.000.000 <s class="text-gray-500">14.000.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/4.png" alt="Respiro Table" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2 font-semibold">Respiro</b>
+                <p class="text-sm lg:text-base mt-2">Outdoor bar table and stool</p>
+                <p class="text-sm lg:text-base mt-2">Rp500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-[#2EC1AC] h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                New
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 mt-12 px-4 lg:px-16">
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/1.png" alt="Syltherine Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Syltherine</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp2.500.000 <s class="text-gray-500">3.500.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/2.png" alt="Leviosa Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Leviosa</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">Rp2.500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/3.png" alt="Lolito Sofa" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Lolito</b>
+                <p class="text-sm lg:text-base mt-2">Luxury big sofa</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp7.000.000 <s class="text-gray-500">14.000.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/4.png" alt="Respiro Table" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2 font-semibold">Respiro</b>
+                <p class="text-sm lg:text-base mt-2">Outdoor bar table and stool</p>
+                <p class="text-sm lg:text-base mt-2">Rp500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-[#2EC1AC] h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                New
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 mt-12 px-4 lg:px-16">
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/1.png" alt="Syltherine Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Syltherine</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp2.500.000 <s class="text-gray-500">3.500.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/2.png" alt="Leviosa Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Leviosa</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">Rp2.500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/3.png" alt="Lolito Sofa" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Lolito</b>
+                <p class="text-sm lg:text-base mt-2">Luxury big sofa</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp7.000.000 <s class="text-gray-500">14.000.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/4.png" alt="Respiro Table" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2 font-semibold">Respiro</b>
+                <p class="text-sm lg:text-base mt-2">Outdoor bar table and stool</p>
+                <p class="text-sm lg:text-base mt-2">Rp500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-[#2EC1AC] h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                New
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 mt-12 px-4 lg:px-16">
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/1.png" alt="Syltherine Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Syltherine</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp2.500.000 <s class="text-gray-500">3.500.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/2.png" alt="Leviosa Chair" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Leviosa</b>
+                <p class="text-sm lg:text-base mt-2">Stylish cafe chair</p>
+                <p class="text-sm lg:text-base mt-2">Rp2.500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="./image/3.png" alt="Lolito Sofa" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2">Lolito</b>
+                <p class="text-sm lg:text-base mt-2">Luxury big sofa</p>
+                <p class="text-sm lg:text-base mt-2">
+                    Rp7.000.000 <s class="text-gray-500">14.000.000</s>
+                </p>
+            </div>
+            <div
+            class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+            <button
+                class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                Add to Cart
+            </button>
+            <div class="flex justify-around mt-6 w-full px-6">
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                </div>
+                <div class="flex items-center">
+                    <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                    <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                </div>
+            </div>
+        </div>
+            <div
+                class="bg-red-400 h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                -30%
+            </div>
+        </div>
+        <div class="w-full sm:w-[17.81rem] h-auto relative group">
+            <img src="image/4.png" alt="Respiro Table" class="w-full h-auto">
+            <div class="bg-[#F4F5F7] p-4">
+                <b class="block text-lg lg:text-xl mt-2 font-semibold">Respiro</b>
+                <p class="text-sm lg:text-base mt-2">Outdoor bar table and stool</p>
+                <p class="text-sm lg:text-base mt-2">Rp500.000</p>
+            </div>
+            <div
+                class="opacity-0 group-hover:opacity-100 bg-[rgba(58,58,58,0.5)] absolute inset-0 flex flex-col justify-center items-center">
+                <button
+                    class="w-[202px] h-[48px] bg-white text-[#B88E2F] font-semibold text-base rounded shadow-md hover:shadow-lg">
+                    Add to Cart
+                </button>
+                <div class="flex justify-around mt-6 w-full px-6">
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Vector.png" alt="Share Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Share</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/Group.png" alt="Group Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Compare</span>
+                    </div>
+                    <div class="flex items-center">
+                        <img class="h-4 w-4" src="./icos/./Heart.png" alt="Like Icon">
+                        <span class="ml-2 text-white text-sm lg:text-base font-medium">Like</span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="bg-[#2EC1AC] h-12 w-12 rounded-full text-white font-medium flex items-center justify-center absolute top-4 right-4">
+                New
+            </div>
+        </div>
+    </div>
+    <div
+        class="flex flex-wrap justify-center lg:justify-between items-center w-full max-w-[392px] h-auto mt-[40px] mx-auto space-x-4">
+        <button class="h-[60px] w-[60px] bg-[#B88E2F] rounded-[10px]">1</button>
+        <button class="h-[60px] w-[60px] bg-[#F9F1E7] rounded-[10px]">2</button>
+        <button class="h-[60px] w-[60px] bg-[#F9F1E7] rounded-[10px]">3</button>
+        <button class="h-[60px] w-[98px] bg-[#F9F1E7] rounded-[10px]">Next</button>
+    </div>
+
+    <footer class="h-auto mt-[85px] bg-[#FAF3EA] flex flex-col lg:flex-row justify-around items-center px-6 py-10">
+        <div class="flex flex-wrap justify-center gap-4 lg:gap-[55.33px]">
+            <img class="h-[70px] w-auto py-3 px-3 max-w-[337px]" src="icos/Frame 5.png" alt="Logo 1">
+            <img class="h-[70px] w-auto py-3 px-3 max-w-[337px]" src="icos/Frame 19.png" alt="Logo 2">
+            <img class="h-[70px] w-auto py-3 px-2 mr-[40px] max-w-[247px]" src="icos/Frame 2.png" alt="Logo 3">
+            <img class="h-[70px] w-auto py-3 px-3 mr-[40px] max-w-[259px]" src="icos/Frame 4.png" alt="Logo 4">
+        </div>
+    </footer>
+
+    <footer class="mt-[5rem] border-t-2 border-gray-300">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-4 md:px-10 lg:px-[100px] bg-white mt-12">
+            <div class="text-center lg:text-left">
+                <a href="#" class="text-2xl font-semibold">Furniro.</a>
+                <p class="font-medium text-gray-500 mt-4">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Link</a>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="font-medium">Home</a></li>
+                    <li><a href="#" class="font-medium">Shop</a></li>
+                    <li><a href="#" class="font-medium">About</a></li>
+                    <li><a href="#" class="font-medium">Contact</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Help</a>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="font-medium">Payment Option</a></li>
+                    <li><a href="#" class="font-medium">Returns</a></li>
+                    <li><a href="#" class="font-medium">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Newsletter</a>
+                <div class="mt-4 flex flex-col items-center lg:flex-row lg:items-center gap-2">
+                    <input type="text" placeholder="Enter Your Email Address"
+                        class="border-b-2 border-black w-full lg:w-auto p-2">
+                    <button class="border-b-2 border-black px-4 py-2">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-10 border-t-2 border-gray-300 pt-4 text-center">
+            <p class="font-normal text-gray-500">2023 Furniro. All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+</html>

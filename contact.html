@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="flex flex-wrap items-center justify-between py-6 px-6 lg:py-[1.875rem] lg:px-[3.375rem] bg-white">
+
+        <img src="image/Frame 168.jpg" alt="Logo" class="h-[40px] lg:h-[50px]">
+
+        <ul class="hidden lg:flex space-x-[3.344rem]">
+            <li><a href="figma.html" class="cursor-pointer hover:text-gray-600">Home</a></li>
+            <li><a href="shop.html" class="cursor-pointer hover:text-gray-600">Shop</a></li>
+            <li><a href="single.html" class="cursor-pointer hover:text-gray-600">About</a></li>
+            <li><a href="contact.html" class="cursor-pointer hover:text-gray-600">Contact</a></li>
+        </ul>
+
+        <div class="flex items-center space-x-6">
+            <div>
+                <img src="./icos/mdi_account-alert-outline.png" alt="Account" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/akar-icons_search.png" alt="Search" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/akar-icons_heart.png" alt="Favorites" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+            <div>
+                <img src="./icos/ant-design_shopping-cart-outlined.png" alt="Cart" class="h-5 w-5 lg:h-6 lg:w-6">
+            </div>
+        </div>
+
+        <button class="lg:hidden block text-gray-600" id="menu-toggle">
+            <i class="bx bx-menu text-xl"></i>
+        </button>
+
+        <ul class="hidden flex-col space-y-4 mt-4 w-full lg:hidden bg-white py-4 px-6 border-t border-gray-200"
+            id="mobile-menu">
+            <li><a href="figma.html" class="block text-gray-800 hover:text-gray-600">Home</a></li>
+            <li><a href="shop.html" class="block text-gray-800 hover:text-gray-600">Shop</a></li>
+            <li><a href="single.html" class="block text-gray-800 hover:text-gray-600">About</a></li>
+            <li><a href="contact.html" class="block text-gray-800 hover:text-gray-600">Contact</a></li>
+        </ul>
+    </header>
+    <section class="h-[19.75rem] bg-cover bg-center bg-[url('/image/main2.png')]">
+        <h1
+            class="text-[#000000] font-bold text-3xl md:text-4xl lg:text-5xl flex justify-center items-center pt-[7.5rem] px-4 text-center">
+            Contact
+        </h1>
+        <p class="text-sm md:text-base mt-2 text-[#000000] flex justify-center items-center space-x-1">
+            <span>home</span>
+            <i class='bx bx-chevron-right w-5 h-5'></i>
+            <span>contact</span>
+        </p>
+    </section>
+ 
+    <div class="h-auto w-full px-4 sm:px-6 lg:px-10">
+        <h1 class="mt-24 mx-auto text-center font-semibold text-3xl sm:text-4xl md:text-5xl">
+            Get in touch with us
+        </h1>
+        <div class="mt-2 w-full max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[50%] mx-auto">
+            <p class="text-sm sm:text-base font-normal text-[#9F9F9F] text-center sm:text-left">
+                For More Information About Our Product & Services. Please Feel Free To Drop Us An Email.
+                Our Staff Always Be There To Help You Out. Do Not Hesitate!
+            </p>
+        </div>
+    </div>
+    <div class="h-auto w-full px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row justify-between mt-[14px]">
+            <div class="mt-[68px] mb-8 lg:mb-0 lg:w-[393px] w-full">
+                <img class="ml-[54px]" src="./icos/Vector (2).png">
+                <h1 class="ml-[106px] text-[#000000] font-medium text-2xl">Address</h1>
+                <h1 class="ml-[106px] text-base sm:text-lg lg:text-xl">236 5th SE Avenue, New York NY10000, United States</h1>
+                <div class="ml-[54px] mt-[42px] flex">
+                    <img src="./icos/bxs_phone.png" class="h-[23px] w-[23px]">
+                    <h1 class="ml-[30px] text-2xl text-[#000000] font-medium">Phone</h1>
+                </div>
+                <h1 class="ml-[106px] text-sm sm:text-base lg:text-lg">Mobile: +(84) 546-6789</h1>
+                <h1 class="ml-[106px] text-sm sm:text-base lg:text-lg">Hotline: +(84) 456-6789</h1>
+                <div class="mt-[48px] ml-[54px] flex">
+                    <img class="h-[23px] w-[23px]" src="./icos/bi_clock-fill.png">
+                    <h1 class="ml-[30px] text-2xl text-[#000000] font-medium">Working Time</h1>
+                </div>
+                <h1 class="ml-[106px] text-sm sm:text-base lg:text-lg">Monday-Friday: 9:00 - 22:00 </h1>
+                <h1 class="ml-[106px] text-sm sm:text-base lg:text-lg">Saturday-Sunday: 9:00 - 21:00</h1>
+            </div>
+    
+            <div class="lg:w-[635px]  w-full">
+                <div class="flex flex-col  mb-[63px] mt-[5rem]" id="myform">
+                    <label class="font-medium text-[16px] text-[#000000] mt-[36px] mb-[22px]">Your Name</label>
+                    <input placeholder="Abc"
+                        class="h-[75px] w-full sm:w-[527px] py-[26px] pl-[29px] rounded-[10px] border-[1px] border-[#9F9F9F]"
+                        id="name-input">
+                    <label class="font-medium text-[16px] text-[#000000] mt-[36px] mb-[22px]">Email Address</label>
+                    <input placeholder="Abc@def.cm"
+                        class="h-[75px] w-full sm:w-[527px] py-[26px] pl-[29px] rounded-[10px] border-[1px] border-[#9F9F9F]"
+                        id="email-input">
+                    <label class="font-medium text-[16px] text-[#000000] mt-[36px] mb-[22px]">Subject</label>
+                    <input placeholder="This is optional"
+                        class="h-[75px] w-full sm:w-[527px] rounded-[10px] py-[26px] pl-[29px] border-[1px] border-[#9F9F9F]"
+                        id="subject-input">
+                    <label class="font-medium text-[16px] text-[#000000] mt-[36px] mb-[22px]">Message</label>
+                    <input placeholder="hi! I'd like to ask about"
+                        class="h-[120px] w-full sm:w-[527px] pl-[30px] pt-[26px] pb-[70px] rounded-[10px] border-[1px] border-[#9F9F9F] mb-[66px]"
+                        id="Message-input">
+                    <button class="h-[55px] w-full sm:w-[237px] bg-[#B88E2F] text-[#fff] rounded-[10px]"
+                        onclick="submitValue()">Submit</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="bg-[#00000050] fixed w-full h-full left-0 top-0 hidden" id="contact-popup">
+            <div class="bg-white max-w-[50%] mx-auto p-6">
+                <div class="flex justify-end px-2" id="close-popup">
+                    <button class="text-red" onclick="closePopUP()">X</button>
+                </div>
+                <div>
+                    <span>First Name:</span>
+                    <span id="name-value"></span>
+                </div>
+                <div>
+                    <span>E-mail address:</span>
+                    <span id="email-value"></span>
+                </div>
+                <div>
+                    <span>Subject:</span>
+                    <span id="subject-value"></span>
+                </div>
+                <div>
+                    <span>Message:</span>
+                    <span id="Message-value"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="h-auto mt-[85px] bg-[#FAF3EA] flex flex-col lg:flex-row justify-around items-center px-6 py-10">
+        <div class="flex flex-wrap justify-center gap-4 lg:gap-[55.33px]">
+            <img class="h-[70px] w-auto py-3 px-3 max-w-[337px]" src="icos/Frame 5.png" alt="Logo 1">
+            <img class="h-[70px] w-auto py-3 px-3 max-w-[337px]" src="icos/Frame 19.png" alt="Logo 2">
+            <img class="h-[70px] w-auto py-3 px-2 mr-[40px] max-w-[247px]" src="icos/Frame 2.png" alt="Logo 3">
+            <img class="h-[70px] w-auto py-3 px-3 mr-[40px] max-w-[259px]" src="icos/Frame 4.png" alt="Logo 4">
+        </div>
+    </footer>
+    <footer class="mt-[5rem] border-t-2 border-gray-300">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-4 md:px-10 lg:px-[100px] bg-white mt-12">
+            <div class="text-center lg:text-left">
+                <a href="#" class="text-2xl font-semibold">Furniro.</a>
+                <p class="font-medium text-gray-500 mt-4">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Link</a>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="font-medium">Home</a></li>
+                    <li><a href="#" class="font-medium">Shop</a></li>
+                    <li><a href="#" class="font-medium">About</a></li>
+                    <li><a href="#" class="font-medium">Contact</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Help</a>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="font-medium">Payment Option</a></li>
+                    <li><a href="#" class="font-medium">Returns</a></li>
+                    <li><a href="#" class="font-medium">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="text-center lg:text-left">
+                <a href="#" class="font-medium text-gray-500">Newsletter</a>
+                <div class="mt-4 flex flex-col items-center lg:flex-row lg:items-center gap-2">
+                    <input type="text" placeholder="Enter Your Email Address"
+                        class="border-b-2 border-black w-full lg:w-auto p-2">
+                    <button class="border-b-2 border-black px-4 py-2">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center mt-10 border-t-2 border-gray-300 pt-4 text-center">
+            <p class="font-normal text-gray-500">2023 Furniro. All rights reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+<script src="./contact.js"></script>
+
+</html>
